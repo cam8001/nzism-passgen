@@ -18,13 +18,13 @@ Ratiocinate77@
 ## Usage
 
 ```javascript
-const pg = require('nzism-passgen')
+const pg = require('nzism-passgen');
 
 // Get a compliant password
-console.log(pg.generatePassword())
+console.log(pg.generatePassword());
 
 // Validate an existing password
-const password = 'notcompliant'
+const password = 'notcompliant';
 const isCompliant = pg.validatePassword(password);
 console.log(`Password "${password}" compliant:`, isCompliant);
 ```
