@@ -1,6 +1,6 @@
 {
   "name": "nzism-passgen",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Generates and validates NZISM compliant passwords.",
   "main": "lib/main.js",
   "scripts": {
