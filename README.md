@@ -1,3 +1,5 @@
+# NZISM Compliant Password Generator
+
 This package attempts to provide an up-to-date library for generating and validating NZISM compliant passwords.
 
 Example randomly generated passwords:
@@ -13,7 +15,7 @@ Ratiocinate77@
 [![Coverage Status](https://coveralls.io/repos/github/cam8001/nzism-passgen/badge.svg?branch=master)](https://coveralls.io/github/cam8001/nzism-passgen?branch=master)
 [![Build Status](https://travis-ci.org/cam8001/nzism-passgen.svg?branch=master)](https://travis-ci.org/cam8001/nzism-passgen)
 
-# Usage
+## Usage
 
 ```javascript
 const pg = require('nzism-passgen')
@@ -27,13 +29,23 @@ const isCompliant = pg.validatePassword(password);
 console.log(`Password "${password}" compliant:`, isCompliant);
 ```
 
-The current version of the ISM can be found here: https://www.nzism.gcsb.govt.nz/ism-document
+## Installation
 
-As of this writing, the most recent update to the ISM was in February 2020, v3.3.
+In your app:
 
-# Password Standard
+`npm install nzism-passgen`
+
+or
+
+`yarn add nzism-passgen`
+
+## Password Standard
 
 This standard has been derived from the NZISM, section 16.1.
+
+The current version of the ISM can be found here: https://www.nzism.gcsb.govt.nz/ism-document
+
+As of this writing, the most recent update to the ISM was  February 2020, v3.3.
 
 As the standard defined there is not prescriptive, the rules below have been derived from the deprecated [NZ Government Authentication Standard](https://snapshot.ict.govt.nz/guidance-and-resources/standards-compliance/authentication-standards/password-standard/index.html)
 
