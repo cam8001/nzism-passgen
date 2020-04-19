@@ -11,6 +11,7 @@ Ratiocinate77@
 
 [![npm version](https://badge.fury.io/js/nzism-passgen.svg)](https://www.npmjs.com/package/nzism-passgen)
 [![Coverage Status](https://coveralls.io/repos/github/cam8001/nzism-passgen/badge.svg?branch=master)](https://coveralls.io/github/cam8001/nzism-passgen?branch=master)
+[![Build Status](https://travis-ci.org/cam8001/nzism-passgen.svg?branch=master)](https://travis-ci.org/cam8001/nzism-passgen)
 
 # Usage
 
