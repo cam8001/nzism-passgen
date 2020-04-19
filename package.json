@@ -1,0 +1,31 @@
+{
+  "name": "nzism-passgen",
+  "version": "0.0.7",
+  "description": "Generates and validates NZISM compliant passwords.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "node test/*.js",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [
+    "nzism",
+    "password"
+  ],
+  "author": "Cameron Tod",
+  "homepage": "https://github.com/cam8001/nzism-passgen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cam8001/nzism-passgen.git"
+  },
+  "dependencies": {
+    "niceware": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nyc": "^15.0.1",
+    "tape": "^4.13.2"
+  }
+}
