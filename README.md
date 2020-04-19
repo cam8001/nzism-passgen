@@ -1,5 +1,14 @@
 This package attempts to provide an up-to-date library for generating and validating NZISM compliant passwords.
 
+Example randomly generated passwords:
+
+```
+Reelection34#
+Isolable68@
+Aldermanic32%
+Ratiocinate77@
+```
+
 [![npm version](https://badge.fury.io/js/nzism-passgen.svg)](https://www.npmjs.com/package/nzism-passgen)
 [![Coverage Status](https://coveralls.io/repos/github/cam8001/nzism-passgen/badge.svg?branch=master)](https://coveralls.io/github/cam8001/nzism-passgen?branch=master)
 
