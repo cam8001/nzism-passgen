@@ -1,0 +1,6 @@
+node_modules
+# VSCode extension for local history
+.history
+# Code coverage reports
+.nyc_output
+
