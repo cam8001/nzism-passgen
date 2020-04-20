@@ -7,7 +7,8 @@ test('Config test', function(t) {
   t.plan(2)
   const defaultConfig = {
     enforce_length_limit: true,
-    special_characters: '+$%*#@'
+    special_characters: '+$%*#@',
+    num_special_characters: 1
   };
   // Called statically
   t.deepEqual(PasswordGenerator.getDefaultConfig(), defaultConfig, true, `Default config is as expected`);
