@@ -1,14 +1,14 @@
-var test = require('tape')
-var pg = require('../lib/main');
+const test = require('tape');
+const pg = require('../lib/main');
 
-test('Validate test', function(t) {
+test('Validate test', (t) => {
   t.plan(8);
-  let pass = ''
+  let pass = '';
 
-  pass = 'badpass'
+  pass = 'badpass';
   t.equal(pg.validatePassword(pass), false, `${pass} is not valid`);
 
-  pass = 'tooshort'
+  pass = 'tooshort';
   t.equal(pg.validatePassword(pass), false, `${pass} is not valid (too short)`);
 
   pass = 'longenoughbutnocapital';
@@ -23,9 +23,9 @@ test('Validate test', function(t) {
   pass = 'PasswordIsValid12$';
   t.equal(pg.validatePassword(pass), true, `${pass} should be NZISM compliant`);
 
-  pass = '0123456789012345678901234567890123456789012345678901234567890123456789Aa#'
+  pass = '0123456789012345678901234567890123456789012345678901234567890123456789Aa#';
   t.equal(pg.validatePassword(pass), false, `${pass} is too long`);
 
-  const config = {'enforce_length_limit': false};
+  const config = { enforce_length_limit: false };
   t.equal(pg.validatePassword(pass, config), true, `Disabled length checking, ${pass} is ok`);
-})
+});
