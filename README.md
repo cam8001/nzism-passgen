@@ -4,12 +4,11 @@ This package attempts to provide an up-to-date library for generating and valida
 
 Example randomly generated passwords:
 
-```
-Reelection34#
-Isolable68@
-Aldermanic32%
-Ratiocinate77@
-```
+    Reelection34#
+    Isolable68@
+    Aldermanic32%
+    Ratiocinate77@
+
 
 [![npm version](https://badge.fury.io/js/nzism-passgen.svg)](https://www.npmjs.com/package/nzism-passgen)
 [![Build Status](https://travis-ci.org/cam8001/nzism-passgen.svg?branch=master)](https://travis-ci.org/cam8001/nzism-passgen)
@@ -50,9 +49,8 @@ As of this writing, the most recent update to the ISM was  February 2020, v3.3.
 
 As the standard defined there is not prescriptive, the rules below have been derived from the deprecated [NZ Government Authentication Standard](https://snapshot.ict.govt.nz/guidance-and-resources/standards-compliance/authentication-standards/password-standard/index.html)
 
-  - Minimum length of 10 characters
-  - Maximum length of 64 characters
-  - Mixed case
-  - A special character
-  - A number
-
+- Minimum length of 10 characters
+- Maximum length of 64 characters
+- Mixed case
+- A special character
+- A number
