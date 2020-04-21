@@ -8,6 +8,7 @@ test('Config test', (t) => {
     special_characters: '+$%*#@',
     num_special_characters: 1,
     password_byte_length: 64,
+    random_number_max: 99,
   };
   // Called statically
   t.deepEqual(PasswordGenerator.getDefaultConfig(), defaultConfig, true, 'Default config is as expected');
