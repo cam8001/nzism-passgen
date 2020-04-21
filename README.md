@@ -12,8 +12,10 @@ Ratiocinate77@
 ```
 
 [![npm version](https://badge.fury.io/js/nzism-passgen.svg)](https://www.npmjs.com/package/nzism-passgen)
-[![Coverage Status](https://coveralls.io/repos/github/cam8001/nzism-passgen/badge.svg?branch=master)](https://coveralls.io/github/cam8001/nzism-passgen?branch=master)
 [![Build Status](https://travis-ci.org/cam8001/nzism-passgen.svg?branch=master)](https://travis-ci.org/cam8001/nzism-passgen)
+
+[![Coverage Status](https://coveralls.io/repos/github/cam8001/nzism-passgen/badge.svg?branch=master)](https://coveralls.io/github/cam8001/nzism-passgen?branch=master)
+[![codebeat badge](https://codebeat.co/badges/cfb5741c-7eef-454d-9a79-599561494374)](https://codebeat.co/projects/github-com-cam8001-nzism-passgen-master)
 
 ## Usage
 
@@ -43,15 +45,15 @@ or
 
 This standard has been derived from the NZISM, section 16.1.
 
-The current version of the ISM can be found here: https://www.nzism.gcsb.govt.nz/ism-document
+The current version of the ISM can be found here: `https://www.nzism.gcsb.govt.nz/ism-document`
 
 As of this writing, the most recent update to the ISM was  February 2020, v3.3.
 
 As the standard defined there is not prescriptive, the rules below have been derived from the deprecated [NZ Government Authentication Standard](https://snapshot.ict.govt.nz/guidance-and-resources/standards-compliance/authentication-standards/password-standard/index.html)
 
-- Minimum length of 10 characters
-- Maximum length of 64 characters
-- Mixed case
-- A special character
-- A number
+  - Minimum length of 10 characters
+  - Maximum length of 64 characters
+  - Mixed case
+  - A special character
+  - A number
 
