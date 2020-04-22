@@ -4,12 +4,12 @@
   "description": "Generates and validates NZISM compliant passwords.",
   "main": "lib/main.js",
   "scripts": {
-    "test": "tape test/*.js",
     "coverage": "nyc npm run test",
     "debug": "node --debug-break ",
     "lint": "eslint lib/*",
     "lint-fix": "eslint --fix lib/*",
-    "lint-md": "remark *.md"
+    "lint-md": "remark *.md",
+    "test": "tape test/*.js"
   },
   "keywords": [
     "nzism",
@@ -26,6 +26,7 @@
     "niceware": "^2.0.0"
   },
   "devDependencies": {
+    "codecov": "^3.6.5",
     "coveralls": "^3.0.11",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",

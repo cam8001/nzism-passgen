@@ -10,3 +10,4 @@ script:
   - npm run coverage
   - alias nyc='./node_modules/.bin/nyc'
   - nyc npm test && nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls
+  - nyc npm test && nyc report --reporter=text-lcov | ./node_modules/.bin/codecov
