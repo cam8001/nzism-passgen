@@ -5,7 +5,7 @@ test('Config test', (t) => {
   t.plan(2);
   const defaultConfig = {
     enforce_length_limit: true,
-    special_characters: '+$%*#@',
+    special_characters: "!#$%&'()*+,-./:;<=>?@[]^_`{|}~",
     num_special_characters: 1,
     password_byte_length: 64,
     random_number_max: 99,
