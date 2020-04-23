@@ -1,8 +1,5 @@
 {
   "author": "Cameron Tod",
-  "dependencies": {
-    "niceware": "^2.0.0"
-  },
   "description": "Generates and validates NZISM compliant passwords.",
   "devDependencies": {
     "coveralls": "^3.0.11",

@@ -2,6 +2,8 @@ const test = require('tape');
 const pg = require('../lib/main');
 
 test('Validate test', (t) => {
+  t.comment('------------------------------');
+
   t.plan(8);
   let pass = '';
 
@@ -28,4 +30,6 @@ test('Validate test', (t) => {
 
   const config = { enforce_length_limit: false };
   t.equal(pg.validatePassword(pass, config), true, `Disabled length checking, ${pass} is ok`);
+
+  t.comment('------------------------------');
 });
