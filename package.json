@@ -29,5 +29,8 @@
     "lint-md": "remark *.md",
     "test": "tape test/*.js"
   },
-  "version": "0.0.11"
+  "version": "0.0.11",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
 }
