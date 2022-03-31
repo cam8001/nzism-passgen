@@ -1,12 +1,17 @@
 language: node_js
 node_js:
   - "node"
-  - 10
-  - 8
+  - 17
+  - 16
+  - 14
+  - 12
 git:
   depth:
     1
+before_script:
+  - rm -rf ./node_modules package-lock.json
+  - npm install
 script:
-  - npm run coverage
   - alias nyc='./node_modules/.bin/nyc'
+  - npm run coverage
   - nyc npm test && nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls
