@@ -11,7 +11,6 @@ Example randomly generated passwords:
 
 
 [![npm version](https://badge.fury.io/js/nzism-passgen.svg)](https://www.npmjs.com/package/nzism-passgen)
-[![Build Status](https://travis-ci.org/cam8001/nzism-passgen.svg?branch=master)](https://travis-ci.org/cam8001/nzism-passgen)
 [![Coverage Status](https://coveralls.io/repos/github/cam8001/nzism-passgen/badge.svg?branch=master)](https://coveralls.io/github/cam8001/nzism-passgen?branch=master)
 [![codebeat badge](https://codebeat.co/badges/cfb5741c-7eef-454d-9a79-599561494374)](https://codebeat.co/projects/github-com-cam8001-nzism-passgen-master)
 
