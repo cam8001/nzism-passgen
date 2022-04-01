@@ -17,9 +17,7 @@ jobs:
       - run: |
           rm -rf ./node_modules package-lock.json
           npm install
-          pwd
-          ls -lash .
-          alias nyc='./node_modules/.bin/nyc'
+          export PATH="./node_modules/.bin:$PATH";
           npm run coverage
           nyc npm test && nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls
 
