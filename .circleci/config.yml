@@ -17,9 +17,8 @@ jobs:
       - run: |
           rm -rf ./node_modules package-lock.json
           npm install
-          which nyc
+          ls -lash ./node_modules/.bin/
           alias nyc='./node_modules/.bin/nyc'
-          which nyc
           npm run coverage
           nyc npm test && nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls
 
