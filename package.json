@@ -2,7 +2,7 @@
   "author": "Cameron Tod",
   "description": "Generates and validates NZISM compliant passwords.",
   "devDependencies": {
-    "coveralls": "^3.0.11",
+    "coveralls": "^3.1.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
