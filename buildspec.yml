@@ -1,0 +1,26 @@
+version: 0.2
+
+env:
+  parameter-store:
+    COVERALLS_REPO_TOKEN: /coveralls/nzism-passgen/COVERALLS_REPO_TOKEN
+
+phases:
+  pre_build:
+    commands:
+      - echo Entered the pre_build phase...
+      - rm -rf ./node_modules package-lock.json
+      - npm install
+      - export PATH="./node_modules/.bin:$PATH";
+    finally:
+      - echo Cleaned up so we can install devDependecies.
+  build:
+    commands:
+      - echo Entered the build phase...
+      - echo Build started on `date`
+      - npm run coverage
+      - nyc npm test && nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls
+  post_build:
+    commands:
+      - echo Entered the post_build phase...
+      - echo Build completed on `date`
+
